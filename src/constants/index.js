@@ -4,20 +4,25 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
   nodejs,
-  mongodb,
+  // mongodb,
   git,
   figma,
-  docker,
+  // docker,
+  astra,
+  bootstrap,
   meta,
   starbucks,
   tesla,
+  avport,
+  valentina,
+  activ,
   shopify,
   carrent,
   jobit,
@@ -28,39 +33,39 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Acerca de mi",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiencia",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Desarrollador web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Diseñador web",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Desarrollador React",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Creador de contenido",
     icon: creator,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -76,18 +81,26 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Astra",
+    icon: astra,
   },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -96,10 +109,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -112,65 +125,64 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Diseñador web Wordpress",
+    company_name: "AvPort Mexico",
+    icon: avport,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Septiembre 2023 - Presente",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollar un sistema de login para el acceso a la plataforma de AvPort Mexico.",
+      "Implementar un sistema de correo electrónico para el envío de notificaciones a los usuarios.",
+      "Desplegar un sistema de seguridad para la protección de datos sensibles",
+      "Supervisar los controles de versiones de los múltiples plugins alojados en el sitio web.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Diseñador web Wordpress",
+    company_name: "Valentina Aguado",
+    icon: valentina,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Septiembre 2023 - Octubre 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Diseño y desarrollo de un sitio web para la promoción de las obras de la artista plástica Valentina Aguado.",
+      "Elaboración de un sistema de galería de imágenes para la visualización de las obras de la artista.",
+      "Implementación de un sistema de contacto para la comunicación con los clientes.",
+      "SEO para el posicionamiento del sitio web en los motores de búsqueda.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Desarrollador web front end",
+    company_name: "Activ Gym",
+    icon: activ,
+    iconBg: "#383E56",
+    date: "Julio 2023 - Septiembre 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollo de un sitio web para la promoción de los servicios de Activ Gym.",
+      "Implementación de un formulario de contacto para la comunicación con los clientes.",
+      "Diseño responsivo para la visualización del sitio web en dispositivos móviles.",
     ],
   },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
