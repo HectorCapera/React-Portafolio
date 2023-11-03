@@ -34,6 +34,10 @@ import activ from "./company/activ.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import activpage from "./activpage.png";
+import tictac from "./tictac.png";
+import portafolio2 from "./portafolio2.png";
+import portafolio1 from "./portafolio1.png";
 
 export {
   logo,
@@ -69,4 +73,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  activpage,
+  tictac,
+  portafolio2,
+  portafolio1,
 };

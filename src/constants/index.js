@@ -17,16 +17,20 @@ import {
   // docker,
   astra,
   bootstrap,
-  meta,
-  starbucks,
-  tesla,
+  // meta,
+  // starbucks,
+  // tesla,
   avport,
   valentina,
   activ,
-  shopify,
+  // shopify,
   carrent,
   jobit,
   tripguide,
+  activpage,
+  tictac,
+  portafolio1,
+  portafolio2,
   threejs,
 } from "../assets";
 
@@ -187,78 +191,75 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Acá va la descripción de Felipe",
+    name: "Felipe Cordero",
+    designation: "Gerente",
+    company: "AVPort",
+    image: "/src/assets/company/avport.png",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    testimonial: "Acá va la descripción de Valentina",
+    name: "Valentina Aguado",
+    designation: "Artista plástica",
+    company: "Independiente",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    testimonial: "Acá el de Carlos",
+    name: "Carlos Ferrari",
+    designation: "Agencia de youtube",
+    company: "Independiente",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Activ Gym",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Página web estática, desarrollada a través de Astra, a partir de gimnasio local, creada a partir de Tailwind CSS, Javascript y HTML, como parte de un proyecto remunerado para un negocio local de la ciudad de Armenia, Quindío.",
     tags: [
       {
-        name: "react",
+        name: "Tailwind CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Astra",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: activpage,
+    source_code_link: "https://github.com/HectorCapera/Activ-Gym",
   },
   {
-    name: "Job IT",
+    name: "Tic Tac Toe",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Juego basado en el clásico tres en raya, desarrollado con React y JavaScript para reforzar los conocimientos y usos de los estados y props, además de la lógica de programación implementada en el juego.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tictac,
+    source_code_link: "https://github.com/HectorCapera/Tic-tac-toe",
   },
   {
-    name: "Trip Guide",
+    name: "Portafolio de editor de video",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Portafolio de editor de video, desarrollado a partir de CSS, HTML y JavaScript, como iniciativa propia para aumentar el alcance a través de plataformas de freelance.",
     tags: [
       {
         name: "nextjs",
@@ -273,8 +274,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portafolio2,
+    source_code_link:
+      "https://github.com/HectorCapera/Portafolio-editor-de-video/tree/main",
+  },
+  {
+    name: "Plantillas de sitios estáticos",
+    description:
+      "Sitio desarrollado para la implementación de tecnologías tales como SAAS, CSS vanilla, HTML y JavaScript a partir de plantillas generadas por parte de HTML5UP.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portafolio1,
+    source_code_link: "https://github.com/HectorCapera/Video-Editor-Portfolio",
   },
 ];
 
