@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  wordpress,
   javascript,
   // typescript,
   html,
@@ -20,6 +21,7 @@ import {
   // meta,
   // starbucks,
   // tesla,
+  isla,
   avport,
   valentina,
   activ,
@@ -66,10 +68,10 @@ const services = [
     title: "Creador de contenido",
     icon: creator,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "Desarrollador WordPress ",
+    icon: wordpress,
+  },
 ];
 
 const technologies = [
@@ -136,6 +138,21 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Diseñador web Wordpress",
+    company_name: "Isla Jet Ski Paquera",
+    icon: isla,
+    iconBg: "#383E56",
+    date: "Noviembre 2023 - Presente",
+    points: [
+      "Desarrollo de un sistema de reservación de tours para la empresa Isla Jet Ski Paquera.",
+      "Implementar un sistema de correo electrónico de SMTP para el envío de notificaciones a los usuarios.",
+      "Implementar un sistema de pago a través de la plataforma de Paypal.",
+      "Desplegar un sistema de seguridad para la protección de datos sensibles.",
+      "Supervisar los controles de versiones de los múltiples plugins alojados en el sitio web.",
+      "Rediseñar el sitio web para una mejor experiencia de usuario.",
+    ],
+  },
   {
     title: "Diseñador web Wordpress",
     company_name: "AvPort Mexico",
@@ -208,6 +225,13 @@ const testimonials = [
     testimonial: "Acá el de Carlos",
     name: "Carlos Ferrari",
     designation: "Agencia de youtube",
+    company: "Independiente",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial: "Acá el de Otro cliente",
+    name: "Desconocido",
+    designation: "Desconocido",
     company: "Independiente",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },

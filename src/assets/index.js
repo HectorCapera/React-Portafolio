@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import wordpress from "./wordpress.webp";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -27,6 +28,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import isla from "./company/isla.png";
 import avport from "./company/avport.png";
 import valentina from "./company/valentina.png";
 import activ from "./company/activ.png";
@@ -45,6 +47,7 @@ export {
   creator,
   mobile,
   web,
+  wordpress,
   github,
   menu,
   close,
@@ -67,6 +70,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  isla,
   avport,
   valentina,
   activ,
