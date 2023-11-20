@@ -24,10 +24,17 @@ import threejs from "./tech/threejs.svg";
 import astra from "./tech/astra.png";
 import bootstrap from "./tech/bootstrap.png";
 
+<<<<<<< HEAD
 // import meta from "./company/meta.png";
 // import shopify from "./company/shopify.png";
 // import starbucks from "./company/starbucks.png";
 // import tesla from "./company/tesla.png";
+=======
+import meta from "./company/meta.png";
+import shopify from "./company/shopify.png";
+import starbucks from "./company/starbucks.png";
+import tesla from "./company/tesla.png";
+>>>>>>> 60aba9fafbf64527c9ca78b6f7f47337b8eef578
 import isla from "./company/isla.png";
 import avport from "./company/avport.png";
 import valentina from "./company/valentina.png";
@@ -66,10 +73,17 @@ export {
   // typescript,
   threejs,
   astra,
+<<<<<<< HEAD
   // meta,
   // shopify,
   // starbucks,
   // tesla,
+=======
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+>>>>>>> 60aba9fafbf64527c9ca78b6f7f47337b8eef578
   isla,
   avport,
   valentina,
