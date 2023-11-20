@@ -5,30 +5,19 @@ import {
   web,
   wordpress,
   javascript,
-  // typescript,
   html,
   css,
   reactjs,
-  // redux,
   tailwind,
   nodejs,
-  // mongodb,
   git,
   figma,
-  // docker,
   astra,
   bootstrap,
-  // meta,
-  // starbucks,
-  // tesla,
   isla,
   avport,
   valentina,
   activ,
-  // shopify,
-  // carrent,
-  // jobit,
-  // tripguide,
   activpage,
   tictac,
   portafolio1,
@@ -87,10 +76,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -103,10 +89,7 @@ const technologies = [
     name: "Bootstrap",
     icon: bootstrap,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -115,10 +98,6 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -131,10 +110,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences = [
@@ -191,19 +166,6 @@ const experiences = [
       "Diseño responsivo para la visualización del sitio web en dispositivos móviles.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
