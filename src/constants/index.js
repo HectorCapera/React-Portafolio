@@ -181,21 +181,21 @@ const testimonials = [
     name: "Valentina Aguado",
     designation: "Artista plástica",
     company: "Independiente",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "/src/assets/company/valentina.png",
   },
   {
     testimonial: "Acá el de Carlos",
     name: "Carlos Ferrari",
     designation: "Agencia de youtube",
     company: "Independiente",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "/src/assets/github.png",
   },
   {
     testimonial: "Acá el de Otro cliente",
     name: "Desconocido",
     designation: "Desconocido",
     company: "Independiente",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "/src/assets/tech/react.png",
   },
 ];
 
