@@ -10,16 +10,20 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Scroll,
 } from "./components";
+
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <Navbar />
         <Hero />
-
+        <Scroll />
         <About />
+
         <Experience />
+
         <Tech />
         <Works />
         <Feedbacks />
