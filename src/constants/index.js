@@ -3,7 +3,6 @@ import {
   backend,
   creator,
   web,
-  wordpress,
   javascript,
   html,
   css,
@@ -19,6 +18,7 @@ import {
   valentina,
   activ,
   activpage,
+  TailwindComponents,
   tictac,
   portafolio1,
   portafolio2,
@@ -50,16 +50,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Desarrollador React",
+    title: "Freelancer",
     icon: backend,
   },
   {
     title: "Creador de contenido",
     icon: creator,
-  },
-  {
-    title: "Desarrollador WordPress ",
-    icon: wordpress,
   },
 ];
 
@@ -142,7 +138,7 @@ const experiences = [
     ],
   },
   {
-    title: "Diseñador web Wordpress",
+    title: "Diseñador web: Landing page",
     company_name: "Valentina Aguado",
     icon: valentina,
     iconBg: "#383E56",
@@ -155,11 +151,11 @@ const experiences = [
     ],
   },
   {
-    title: "Desarrollador web front end",
+    title: "Freelance web front end",
     company_name: "Activ Gym",
     icon: activ,
     iconBg: "#383E56",
-    date: "Julio 2023 - Septiembre 2023",
+    date: "2023",
     points: [
       "Desarrollo de un sitio web para la promoción de los servicios de Activ Gym.",
       "Implementación de un formulario de contacto para la comunicación con los clientes.",
@@ -222,26 +218,27 @@ const projects = [
     source_code_link: "https://github.com/HectorCapera/Activ-Gym",
   },
   {
-    name: "Tic Tac Toe",
+    name: "Tailwind Components",
     description:
-      "Juego basado en el clásico tres en raya, desarrollado con React y JavaScript para reforzar los conocimientos y usos de los estados y props, además de la lógica de programación implementada en el juego.",
+      "Página enfocada en la creación de componentes de Tailwind CSS, desarrollada a partir de React, Javascript y Astro, como parte de un proyecto personal para optimizar el ciclo de desarrollo y la creación de componentes reutilizables.",
     tags: [
       {
-        name: "React",
+        name: "Tailwind CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Astra",
         color: "pink-text-gradient",
       },
     ],
-    image: tictac,
-    source_code_link: "https://github.com/HectorCapera/Tic-tac-toe",
+    image: TailwindComponents,
+    source_code_link: "https://github.com/HectorCapera/Activ-Gym",
   },
+
   {
     name: "Portafolio de editor de video",
     description:
@@ -284,6 +281,27 @@ const projects = [
     ],
     image: portafolio1,
     source_code_link: "https://github.com/HectorCapera/Video-Editor-Portfolio",
+  },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "Juego basado en el clásico tres en raya, desarrollado con React y JavaScript para reforzar los conocimientos y usos de los estados y props, además de la lógica de programación implementada en el juego.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tictac,
+    source_code_link: "https://github.com/HectorCapera/Tic-tac-toe",
   },
 ];
 

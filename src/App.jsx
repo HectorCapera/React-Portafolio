@@ -10,7 +10,6 @@ import {
   Tech,
   Works,
   StarsCanvas,
-  Scroll,
 } from "./components";
 
 const App = () => {
@@ -19,13 +18,10 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <Navbar />
         <Hero />
-        <Scroll />
         <About />
-
-        <Experience />
-
         <Tech />
         <Works />
+        <Experience />
         <Feedbacks />
         <div className="relative z-0">
           <StarsCanvas />

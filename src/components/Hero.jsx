@@ -1,13 +1,9 @@
-// import { motion } from "framer-motion";
-import { Canvas } from "@react-three/fiber";
-// import Computer from "./canvas/Computer";
-// import { OrbitControls } from "@react-three/drei";
-// import Spaceboy from "./canvas/Spaceboy";
+// import { Canvas } from "@react-three/fiber";
+
 import Space from "./canvas/Space";
 
 import { styles } from "../styles";
 import ParticlesBg from "./ParticlesBg";
-// import { Suspense } from "react";
 
 import Scroll from "./Scroll";
 
