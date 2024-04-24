@@ -13,13 +13,14 @@ import {
   figma,
   astra,
   bootstrap,
-  isla,
   avport,
-  valentina,
+  difovi,
+  digitalzach,
   activ,
   activpage,
   TailwindComponents,
-  tictac,
+  hectorweb,
+  hosting,
   portafolio1,
   portafolio2,
   threejs,
@@ -111,17 +112,17 @@ const technologies = [
 const experiences = [
   {
     title: "Diseñador web Wordpress",
-    company_name: "Isla Jet Ski Paquera",
-    icon: isla,
+    company_name: "Difovi",
+    icon: difovi,
     iconBg: "#383E56",
-    date: "Noviembre 2023 - Presente",
+    date: "2024 - Presente",
     points: [
-      "Desarrollo de un sistema de reservación de tours para la empresa Isla Jet Ski Paquera.",
-      "Implementar un sistema de correo electrónico de SMTP para el envío de notificaciones a los usuarios.",
-      "Implementar un sistema de pago a través de la plataforma de Paypal.",
+      "Desarrollo e implementación de plantillas PHP en sitios web de clientes.",
+      "Diseño de menus y estructuras de navegación para una mejor experiencia de usuario.",
+      "Implementación de plugins para la mejora de la funcionalidad de los sitios web.",
       "Desplegar un sistema de seguridad para la protección de datos sensibles.",
       "Supervisar los controles de versiones de los múltiples plugins alojados en el sitio web.",
-      "Rediseñar el sitio web para una mejor experiencia de usuario.",
+      "Asignación de un rol específico para cada miembro del equipo de trabajo.",
     ],
   },
   {
@@ -129,7 +130,7 @@ const experiences = [
     company_name: "AvPort Mexico",
     icon: avport,
     iconBg: "#383E56",
-    date: "Septiembre 2023 - Presente",
+    date: "2023",
     points: [
       "Desarrollar un sistema de login para el acceso a la plataforma de AvPort Mexico.",
       "Implementar un sistema de correo electrónico para el envío de notificaciones a los usuarios.",
@@ -138,15 +139,15 @@ const experiences = [
     ],
   },
   {
-    title: "Diseñador web: Landing page",
-    company_name: "Valentina Aguado",
-    icon: valentina,
+    title: "Diseñador web",
+    company_name: "Digital Zach",
+    icon: digitalzach,
     iconBg: "#383E56",
-    date: "Septiembre 2023 - Octubre 2023",
+    date: "2023 - Presente",
     points: [
-      "Diseño y desarrollo de un sitio web para la promoción de las obras de la artista plástica Valentina Aguado.",
-      "Elaboración de un sistema de galería de imágenes para la visualización de las obras de la artista.",
-      "Implementación de un sistema de contacto para la comunicación con los clientes.",
+      "Fundación de la agencia de diseño web y SEO Digital Zach.",
+      "Diseño web, asesoramiento personalizado y creación de contenido para redes sociales.",
+      "Distribución de roles específicos.",
       "SEO para el posicionamiento del sitio web en los motores de búsqueda.",
     ],
   },
@@ -166,32 +167,49 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "Acá va la descripción de Felipe",
+    testimonial:
+      "Hector es un excelente diseñador web, muy profesional y comprometido con su trabajo. Lo recomiendo ampliamente.",
     name: "Felipe Cordero",
     designation: "Gerente",
     company: "AVPort",
     image: "/src/assets/company/avport.png",
   },
   {
-    testimonial: "Acá va la descripción de Valentina",
-    name: "Valentina Aguado",
-    designation: "Artista plástica",
-    company: "Independiente",
+    testimonial:
+      "Hector desarrolló 2 sitios web para mi empresa, de manera eficiente y quedé muy satisfecha con su trabajo. Lo recomiendo.",
+    name: "Dayanna Huertas",
+    designation: "Independiente",
+    company: "La casa de KOA",
     image: "/src/assets/company/valentina.png",
   },
   {
-    testimonial: "Acá el de Carlos",
-    name: "Carlos Ferrari",
-    designation: "Agencia de youtube",
-    company: "Independiente",
-    image: "/src/assets/github.png",
+    testimonial:
+      "Hector es un gran profesional, entendio a la perfección los requerimientos y se animo a realizar nuevas propuestas. altamente recomendado",
+    name: "Javier Solis ",
+    designation: "Independiente",
+    company: "JaviSolis",
+    image: "/src/assets/javier.png",
   },
   {
     testimonial: "Acá el de Otro cliente",
-    name: "Desconocido",
+    name: "Yaumara ",
     designation: "Desconocido",
     company: "Independiente",
     image: "/src/assets/tech/react.png",
+  },
+  {
+    testimonial: "excelente trabajo, muy atento y profesional, lo recomiendo",
+    name: "Patrick James ",
+    designation: "Gerente",
+    company: "Difovi",
+    image: "/src/assets/company/difovi.png",
+  },
+  {
+    testimonial: "Descripción ",
+    name: "Ailen Reinhardt ",
+    designation: "Gerente",
+    company: "Difovi",
+    image: "/src/assets/company/difovi.png",
   },
 ];
 
@@ -210,7 +228,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Astra",
+        name: "Astro",
         color: "pink-text-gradient",
       },
     ],
@@ -223,20 +241,49 @@ const projects = [
       "Página enfocada en la creación de componentes de Tailwind CSS, desarrollada a partir de React, Javascript y Astro, como parte de un proyecto personal para optimizar el ciclo de desarrollo y la creación de componentes reutilizables.",
     tags: [
       {
-        name: "Tailwind CSS",
+        name: "React ",
         color: "blue-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "Astra",
+        name: "Astro",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "orange-text-gradient",
       },
     ],
     image: TailwindComponents,
     source_code_link: "https://github.com/HectorCapera/Activ-Gym",
+  },
+  {
+    name: "Digital Zach",
+    description:
+      "Portafolio realizado a partir de Wordpress y Elementor, con el cual manejo y distribuyo el tráfico de clientes a través de diferentes plataformas y redes sociales, ofertando mis servicios como diseñador web en la agencia Digital Zach.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: hectorweb,
+    source_code_link: "https://github.com/HectorCapera/Tic-tac-toe",
   },
 
   {
@@ -245,15 +292,19 @@ const projects = [
       "Portafolio de editor de video, desarrollado a partir de CSS, HTML y JavaScript, como iniciativa propia para aumentar el alcance a través de plataformas de freelance.",
     tags: [
       {
-        name: "nextjs",
+        name: "Astro",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -267,15 +318,15 @@ const projects = [
       "Sitio desarrollado para la implementación de tecnologías tales como SAAS, CSS vanilla, HTML y JavaScript a partir de plantillas generadas por parte de HTML5UP.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -283,24 +334,28 @@ const projects = [
     source_code_link: "https://github.com/HectorCapera/Video-Editor-Portfolio",
   },
   {
-    name: "Tic Tac Toe",
+    name: "+15 proyectos freelance",
     description:
-      "Juego basado en el clásico tres en raya, desarrollado con React y JavaScript para reforzar los conocimientos y usos de los estados y props, además de la lógica de programación implementada en el juego.",
+      "Proyectos concluidos  como diseñador web, en los cuales he implementado tecnologías como Wordpress, Elementor, CSS, HTML, PHP y JavaScript, para la creación de sitios web y landing pages para diferentes empresas y clientes independientes.",
     tags: [
       {
-        name: "React",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Elementor",
         color: "pink-text-gradient",
       },
+      {
+        name: "PHP",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tictac,
+    image: hosting,
     source_code_link: "https://github.com/HectorCapera/Tic-tac-toe",
   },
 ];

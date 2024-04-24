@@ -14,7 +14,7 @@ function Space() {
           <Suspense fallback={null}>
             <Spaceboy />
           </Suspense>
-          <OrbitControls enableZoom={false} />
+          <OrbitControls autoRotate enableZoom={false} />
         </Canvas>
       </div>
     </section>

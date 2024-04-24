@@ -24,12 +24,18 @@ import threejs from "./tech/threejs.svg";
 import astra from "./tech/astra.png";
 import bootstrap from "./tech/bootstrap.png";
 
+import javier from "./javier.png";
+
+import difovi from "./company/difovi.png";
+import digitalzach from "./company/digitalzach.png";
 import isla from "./company/isla.png";
 import avport from "./company/avport.png";
 import valentina from "./company/valentina.png";
 import activ from "./company/activ.png";
 
+import hosting from "./hosting.png";
 import activpage from "./activpage.png";
+import hectorweb from "./hectorweb.png";
 import TailwindComponents from "./TailwindComponents.png";
 import tictac from "./tictac.png";
 import portafolio2 from "./portafolio2.png";
@@ -59,9 +65,14 @@ export {
   isla,
   avport,
   valentina,
+  difovi,
+  digitalzach,
   activ,
   activpage,
   TailwindComponents,
+  hectorweb,
+  hosting,
+  javier,
   tictac,
   portafolio2,
   portafolio1,

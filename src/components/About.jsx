@@ -49,8 +49,9 @@ const About = () => {
       >
         Soy un desarrollador web front end con experiencia en el manejo de las
         tecnologías más populares del mercado, como HTML, CSS, SASS, Bootstrap,
-        Astro, JavaScript, React,TailwindCSS, etc. Me encanta crear sitios web y
-        aplicaciones web que sean atractivas y fáciles de usar.
+        Astro, JavaScript, React,TailwindCSS, etc. Además, me desempeño como
+        diseñador web en la agencia Digital Zach, desarrollando sitios web a
+        partir de Wordpress y Elementor para diferentes clientes.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
