@@ -285,7 +285,6 @@ const projects = [
     image: hectorweb,
     source_code_link: "https://github.com/HectorCapera/Tic-tac-toe",
   },
-
   {
     name: "Portafolio de editor de video",
     description:

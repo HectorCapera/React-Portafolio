@@ -7,7 +7,7 @@ function Space() {
   return (
     <section className="w-100% h-screen">
       <div style={{ width: "100%", height: "100%" }}>
-        <Canvas camera={{ zoom: 2.5, position: [15, 20, 15] }}>
+        <Canvas camera={{ zoom: 2, position: [25, 10, 5] }}>
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} />
           <pointLight position={[-10, -10, -10]} />
