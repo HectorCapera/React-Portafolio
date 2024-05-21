@@ -27,6 +27,7 @@ import {
   portafolio1,
   portafolio2,
   threejs,
+  valentina,
 } from "../assets";
 
 export const navLinks = [
@@ -175,7 +176,7 @@ const testimonials = [
     name: "Felipe Cordero",
     designation: "",
     company: "Gerente de AVPort",
-    image: "/src/assets/company/avport.png",
+    image: avport,
   },
   {
     testimonial:
@@ -183,7 +184,7 @@ const testimonials = [
     name: "Dayanna Huertas",
     designation: "",
     company: "Independiente en La casa de KOA",
-    image: "/src/assets/company/valentina.png",
+    image: valentina,
   },
   {
     testimonial:
@@ -206,7 +207,7 @@ const testimonials = [
     name: "Patrick James ",
     designation: "Gerente",
     company: "Gerente de Difovi",
-    image: "/src/assets/company/difovi.png",
+    image: difovi,
   },
   {
     testimonial:
