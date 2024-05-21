@@ -25,6 +25,8 @@ import astra from "./tech/astra.png";
 import bootstrap from "./tech/bootstrap.png";
 
 import javier from "./javier.png";
+import bless from "./blessangels.png";
+import ailen from "./ailen.png";
 
 import difovi from "./company/difovi.png";
 import digitalzach from "./company/digitalzach.png";
@@ -73,6 +75,8 @@ export {
   hectorweb,
   hosting,
   javier,
+  bless,
+  ailen,
   tictac,
   portafolio2,
   portafolio1,
